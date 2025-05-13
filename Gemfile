@@ -51,6 +51,7 @@ gem "bootsnap", require: false
 
 group :production do
   gem "pg"
+  gem "dotenv-rails"
 end
 
 group :development, :test do
